@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+<view class="banner">
+  <image src='https://s2.51cto.com/oss/201801/24/dfd7b2fe4110ce49d326763ec3fad062.jpg' mode="widthFix"></image>
+  <button wx:if='{{ismember}}' class="jion-right" bindtap='toApply'>立即加入</button>
+</view>
+<view class="tit">技术管理者的成长&社交平台</view>
+<view class="public_margin">CTO俱乐部是 51CTO 旗下中高端技术人才思想交流、合作互助的平台，基于“信任、合作、关怀、成长”的价值观，汇集互联网圈内资深的技术管理者，通过线上与线下的学习交流，为会员提供服务，致力于成为技术领袖的职场社交平台。</view>
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" vertical="{{vertical}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}"  wx:key="{{imgUrls}}">
+      <swiper-item>
+        <view class="swi-page" >
+          <view wx:for="{{guestArr}}" wx:key="{{guestArr}}">
+            <image src="{{item.imgsrc}}" mode="widthFix"></image>
+            <view>{{item.gName}}</view>
+            <view>{{item.position}}</view>
+          </view>             
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>  
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="rName">hello {{rName}}!</view>
+  <!-- <button bindtap = "changeName">click me!</button> -->
+  <a href="https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html">点击</a>
+</view>

@@ -1,0 +1,40 @@
+<!--logs.wxml-->
+<view wx:if="{{condition}}" class="log-nav log-nav-fix">这里是需要固定的导航2</view>
+<view wx:else  class="log-nav">这里是需要固定的导航</view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view>文字 </view>
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>

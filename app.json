@@ -1,0 +1,43 @@
+
+{
+  "pages": [
+    "pages/component/index/index",
+    "pages/component/meetUp/meetUp",
+    "pages/component/year-list/year-list",
+    "pages/component/member-center/member-center",
+    "pages/component/apply-member/apply-member"
+  ],
+  "window": {
+    "backgroundTextStyle": "lightgreen",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar":{
+    "position":"bottom",
+    "backgroundColor":"#1a1819",
+    "color":"#8e8e93",
+    "selectedColor":"#ffbb00",
+    "list":[{
+      "pagePath":"pages/component/index/index",
+      "text":"首页",
+      "iconPath":"images/index.png",
+      "selectedIconPath":"images/index_on.png"
+    },{
+      "pagePath":"pages/component/meetUp/meetUp",
+      "text":"MeetUP",
+      "iconPath": "images/meetUp.png",
+      "selectedIconPath": "images/meetUp_on.png"
+    },{
+      "pagePath": "pages/component/year-list/year-list",
+      "text": "年度课表",
+      "iconPath": "images/list.png",
+      "selectedIconPath": "images/list_on.png"
+    },{
+      "pagePath": "pages/component/member-center/member-center",
+      "text": "会员中心",
+      "iconPath": "images/vip.png",
+      "selectedIconPath": "images/vip_on.png"
+    }]
+  }                       
+}

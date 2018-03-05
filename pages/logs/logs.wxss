@@ -1,0 +1,18 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.log-nav{
+  width: 100%;
+  background: #ccc;
+  color:#fff;
+  text-align: center;
+}
+.log-nav-fix{
+  position: fixed;
+  top:0;
+}

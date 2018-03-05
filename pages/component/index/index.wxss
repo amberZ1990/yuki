@@ -1,0 +1,62 @@
+/**index.wxss**/
+
+.tit{
+  position: relative;
+  font-size:36rpx;
+  text-align: center;
+  margin-bottom:30rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.rName{
+  display: block;
+  color:#f40;
+  padding:20px;
+}
+.banner{
+  position: relative;
+  margin-bottom:70rpx;
+}
+image{
+  width:100%;
+}
+.jion-right{
+  position:absolute;
+  bottom:126rpx;
+  width:360rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  left:50%;
+  margin-left:-180rpx;
+  background:#ffbb00;
+  font-size:28rpx;
+  border-radius: 0;
+}
+/*swiper*/
+swiper{
+   height: 400rpx;
+   text-align: center;
+}
+.swi-page>view{
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
